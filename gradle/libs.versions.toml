@@ -1,0 +1,43 @@
+[versions]
+
+# GRADLE
+gradlePlugin = "7.2.2"
+
+# BUILD
+min-sdk="23"
+target-sdk="33"
+compile-sdk="33"
+build-tools="33.0.0"
+
+# KOTLIN
+kotlin = "1.7.10"
+
+# ANDROIDX
+androidx-appCompat = "1.4.2"
+androidx-coreKtx = "1.8.0"
+
+# GOOGLE
+google-material = "1.6.1"
+
+
+[libraries]
+
+# ANDROIDX
+androidx-appCompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appCompat" }
+androidx-coreKtx = { module = "androidx.core:core-ktx", version.ref = "androidx-coreKtx" }
+
+# GOOGLE
+google-material = { module = "com.google.android.material:material", version.ref = "google-material" }
+
+# KOTLIN
+kotlin-stdLib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+[bundles]
+
+#kotlin-core = ["kotlin-stdLib", "kotlin-reflection"]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "gradlePlugin" }
+#android-library = { id = "com.android.library", version.ref = "gradleplugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+#kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
