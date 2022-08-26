@@ -30,6 +30,8 @@ class BaseKotlinPlugin : Plugin<Project> {
     private fun Project.setDependencies() {
         dependencies {
             add("implementation", library.kotlin.stdLib)
+
+            // TODO:: check the following usage
 //            add("implementation", library.bundles.kotlin.coroutines)
 
 //            add("implementation", library.log.timber)

@@ -9,7 +9,6 @@ repositories {
 }
 
 dependencies {
-    implementation(gradleApi())
     implementation("com.android.tools.build:gradle:${libs.versions.gradlePlugin.get()}")
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.get()}")
     implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
