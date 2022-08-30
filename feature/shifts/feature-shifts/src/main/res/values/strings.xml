@@ -1,0 +1,12 @@
+<resources>
+    <string name="message_shift_added_successfully">Added Successfully</string>
+
+    <string name="label_start_date">Start Date</string>
+    <string name="label_start_time">Start Time</string>
+    <string name="label_end_time">End Time</string>
+    <string name="label_employee">Employee</string>
+    <string name="label_role">Role</string>
+    <string name="label_color">Color</string>
+
+    <string name="submit_add_new">Add New</string>
+</resources>

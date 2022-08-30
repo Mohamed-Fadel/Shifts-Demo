@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+
+    <string name="role_waiter">Waiter</string>
+    <string name="role_prep">Prep</string>
+    <string name="front_of_house_role">Front Of House</string>
+    <string name="role_cook">Cook</string>
+
+
+</resources>

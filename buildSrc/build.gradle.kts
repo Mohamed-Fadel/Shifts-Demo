@@ -9,8 +9,10 @@ repositories {
 }
 
 dependencies {
-    implementation("com.android.tools.build:gradle:${libs.versions.gradlePlugin.get()}")
-    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.get()}")
+    implementation(gradleApi())
+    implementation("com.android.tools.build:gradle:${libs.versions.gradlePlugin.gradle.get()}")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:${libs.versions.kotlin.version.get()}")
+    implementation("org.koin:koin-gradle-plugin:${libs.versions.gradlePlugin.koin.get()}")
     implementation(files(libs.javaClass.superclass.protectionDomain.codeSource.location))
 
 }
@@ -30,6 +32,16 @@ gradlePlugin {
         create("HomeBaseKotlinPlugin") {
             id = "homebase-kotlin"
             implementationClass = "com.example.homebase.base.BaseKotlinPlugin"
+        }
+
+        create("HomeBaseLibraryPlugin") {
+            id = "homebase-library"
+            implementationClass = "com.example.homebase.base.BaseLibraryPlugin"
+        }
+
+        create("HomeBaseKotlinLibraryPlugin") {
+            id = "homebase-kotlin-library"
+            implementationClass = "com.example.homebase.base.BaseKotlinLibraryPlugin"
         }
     }
 }

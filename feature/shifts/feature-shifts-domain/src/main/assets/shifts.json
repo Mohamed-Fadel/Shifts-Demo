@@ -1,0 +1,81 @@
+{
+  "shifts": [
+    {
+      "role": "Waiter",
+      "name": "Anna",
+      "start_date": "2018-04-20 09:00:00 -08:00",
+      "end_date": "2018-04-20 12:00:00 -08:00",
+      "color": "red"
+    },
+    {
+      "role": "Prep",
+      "name": "Anton",
+      "start_date": "2018-04-20 09:00:00 -08:00",
+      "end_date": "2018-04-20 12:00:00 -08:00",
+      "color": "blue"
+    },
+    {
+      "role": "Front of House",
+      "name": "Eugene",
+      "start_date": "2018-04-20 12:00:00 -08:00",
+      "end_date": "2018-04-20 22:00:00 -08:00",
+      "color": "red"
+    },
+    {
+      "role": "Cook",
+      "name": "Keyvan",
+      "start_date": "2018-04-21 07:00:00 -08:00",
+      "end_date": "2018-04-21 12:00:00 -08:00",
+      "color": "green"
+    },
+    {
+      "role": "Waiter",
+      "name": "Anna",
+      "start_date": "2018-04-21 09:00:00 -08:00",
+      "end_date": "2018-04-21 14:00:00 -08:00",
+      "color": "red"
+    },
+    {
+      "role": "Prep",
+      "name": "Anton",
+      "start_date": "2018-04-21 07:00:00 -08:00",
+      "end_date": "2018-04-21 12:00:00 -08:00",
+      "color": "blue"
+    },
+    {
+      "role": "Front of House",
+      "name": "Eugene",
+      "start_date": "2018-04-21 12:00:00 -08:00",
+      "end_date": "2018-04-21 22:00:00 -08:00",
+      "color": "red"
+    },
+    {
+      "role": "Cook",
+      "name": "Keyvan",
+      "start_date": "2018-04-22 07:00:00 -08:00",
+      "end_date": "2018-04-22 12:00:00 -08:00",
+      "color": "green"
+    },
+    {
+      "role": "Waiter",
+      "name": "Anna",
+      "start_date": "2018-04-22 09:00:00 -08:00",
+      "end_date": "2018-04-22 14:00:00 -08:00",
+      "color": "red"
+    },
+    {
+      "role": "Prep",
+      "name": "Anton",
+      "start_date": "2018-04-22 07:00:00 -08:00",
+      "end_date": "2018-04-22 12:00:00 -08:00",
+      "color": "blue"
+    },
+    {
+      "role": "Front of House",
+      "name": "Eugene",
+      "start_date": "2018-04-22 12:00:00 -08:00",
+      "end_date": "2018-04-22 22:00:00 -08:00",
+      "color": "red"
+    }
+  ]
+}
